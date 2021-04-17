@@ -1,0 +1,247 @@
+.header{
+font-family:fantasy;
+text-align: center; 
+font-style: underline;
+background-image: url("Icons/headimg.png");
+}
+.games{
+display:flex;
+flex-wrap: wrap ;
+justify-content: space-between;  
+border:white;
+border-style: groove;
+border-radius: 5px;
+}  
+
+.origami{
+border-radius: 20px;
+background-color:rgb(220, 237, 245);
+width:310 px;
+font-family: italic;
+flex: 20.33%;
+padding: 50px;
+}
+
+.item{
+border:rgb(214, 244, 247);
+border-radius: 2px;
+border-style: groove;
+padding-top: 3% ;
+text-align: center;
+font-size: xx-large;
+font-style: italic;
+font-family:fantasy;
+}
+
+.grid img {
+display :flex;
+flex-wrap:wrap;
+border: 4px solid white;
+border-radius: 50px;
+}
+
+
+.footer{
+display: flex;
+justify-content: flex-end;
+}
+.description{
+text-align: center; 
+color: cornsilk;
+}
+body{
+background-image: url("Icons/backimg.jpg");
+}
+
+.menu{
+padding-top: 30px;
+justify-content: space-between;
+text-align: center; 
+}
+
+.first-txt{
+position: absolute;
+top: 120px;
+left: 55px;
+font-size:x-large;
+font-family:cursive;
+}
+.second-txt{
+position: absolute;
+top: 270px;
+left: 55px;
+font-size: x-large;
+font-family:cursive;
+}
+.third-txt{
+position: absolute;
+top:360px;
+left: 70px;
+font-size: large;
+font-family:cursive;
+text-align: center;
+}
+.fourth-txt{
+position: absolute;
+top:360px;
+left:330px;
+font-size: large;
+font-family:cursive;
+text-align: center;
+}
+.fifth-txt{
+position: absolute;
+top:360px;
+font-size: large;
+font-family:cursive;
+text-align: center;
+left: 605px;
+}
+.sixth-txt{
+position: absolute;
+top:360px;
+font-size: large;
+font-family:cursive;
+text-align: center;
+left:860;
+}
+.seventh-txt{
+position: absolute;
+top:360px;
+font-size: large;
+font-family:cursive;
+text-align: center;
+left: 1130px;
+}
+.eighth-txt{
+position: absolute;
+top:360px;
+font-size: large;
+font-family:cursive;
+text-align: center;
+left: 1330px;
+}
+
+.image{
+background-repeat: no-repeat;
+background-size:auto;
+margin-left: 130px;
+margin-right: 130px;
+margin-top: 50px ;
+padding:20px;
+}
+
+a:link{
+color: #000;
+}
+
+a:visited{
+color:#000;
+}
+
+.item{
+position:relative;
+}
+
+.item p{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+
+opacity: 0;
+}
+
+.item:hover p{
+opacity:1;
+color: cornsilk;
+}
+
+.item:hover img{
+opacity: 0.23;
+
+}
+.third-txt p{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+opacity: 0;  
+}
+.third-txt:hover p {
+opacity:1;
+color: black;
+}
+.third-txt:hover img{
+opacity: 0.43;
+}
+.fourth-txt p{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+opacity: 0;  
+}
+.fourth-txt:hover p {
+opacity:1;
+color: black;
+}
+.fourth-txt:hover img{
+opacity: 0.43;
+}
+.fifth-txt p{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+opacity: 0;  
+}
+.fifth-txt:hover p {
+opacity:1;
+color: black;
+}
+.fifth-txt:hover img{
+opacity: 0.43;
+}
+.sixth-txt p{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+opacity: 0;  
+}
+.sixth-txt:hover p {
+opacity:1;
+color: black;
+}
+.sixth-txt:hover img{
+opacity: 0.43;
+}
+.seventh-txt p{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+opacity: 0;  
+}
+.seventh-txt:hover p {
+opacity:1;
+color: black;
+}
+.seventh-txt:hover img{
+opacity: 0.43;
+}
+.eighth-txt p{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+opacity: 0;  
+}
+.eighth-txt:hover p {
+opacity:1;
+color: black;
+}
+.eighth-txt:hover img{
+opacity: 0.43;
+}
